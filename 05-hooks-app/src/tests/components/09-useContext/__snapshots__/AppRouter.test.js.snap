@@ -1,0 +1,209 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en AppRouter debe de mostrarse correctamente 1`] = `
+<AppRouter>
+  <BrowserRouter>
+    <Router
+      history={
+        Object {
+          "action": "POP",
+          "block": [Function],
+          "createHref": [Function],
+          "go": [Function],
+          "goBack": [Function],
+          "goForward": [Function],
+          "length": 1,
+          "listen": [Function],
+          "location": Object {
+            "hash": "",
+            "pathname": "/",
+            "search": "",
+            "state": undefined,
+          },
+          "push": [Function],
+          "replace": [Function],
+        }
+      }
+    >
+      <div>
+        <NavBar>
+          <nav>
+            <ul>
+              <li>
+                <NavLink
+                  to="./"
+                >
+                  <Link
+                    aria-current="page"
+                    className="active"
+                    style={Object {}}
+                    to={
+                      Object {
+                        "hash": "",
+                        "pathname": "/",
+                        "search": "",
+                        "state": null,
+                      }
+                    }
+                  >
+                    <LinkAnchor
+                      aria-current="page"
+                      className="active"
+                      href="/"
+                      navigate={[Function]}
+                      style={Object {}}
+                    >
+                      <a
+                        aria-current="page"
+                        className="active"
+                        href="/"
+                        onClick={[Function]}
+                        style={Object {}}
+                      >
+                        Home
+                      </a>
+                    </LinkAnchor>
+                  </Link>
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  to="./about"
+                >
+                  <Link
+                    aria-current={null}
+                    to={
+                      Object {
+                        "hash": "",
+                        "pathname": "/about",
+                        "search": "",
+                        "state": null,
+                      }
+                    }
+                  >
+                    <LinkAnchor
+                      aria-current={null}
+                      href="/about"
+                      navigate={[Function]}
+                    >
+                      <a
+                        aria-current={null}
+                        href="/about"
+                        onClick={[Function]}
+                      >
+                        About
+                      </a>
+                    </LinkAnchor>
+                  </Link>
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  to="./login"
+                >
+                  <Link
+                    aria-current={null}
+                    to={
+                      Object {
+                        "hash": "",
+                        "pathname": "/login",
+                        "search": "",
+                        "state": null,
+                      }
+                    }
+                  >
+                    <LinkAnchor
+                      aria-current={null}
+                      href="/login"
+                      navigate={[Function]}
+                    >
+                      <a
+                        aria-current={null}
+                        href="/login"
+                        onClick={[Function]}
+                      >
+                        Login
+                      </a>
+                    </LinkAnchor>
+                  </Link>
+                </NavLink>
+              </li>
+            </ul>
+          </nav>
+        </NavBar>
+        <Switch>
+          <Route
+            component={[Function]}
+            computedMatch={
+              Object {
+                "isExact": true,
+                "params": Object {},
+                "path": "/",
+                "url": "/",
+              }
+            }
+            location={
+              Object {
+                "hash": "",
+                "pathname": "/",
+                "search": "",
+                "state": undefined,
+              }
+            }
+            path="/"
+          >
+            <HomeScreen
+              history={
+                Object {
+                  "action": "POP",
+                  "block": [Function],
+                  "createHref": [Function],
+                  "go": [Function],
+                  "goBack": [Function],
+                  "goForward": [Function],
+                  "length": 1,
+                  "listen": [Function],
+                  "location": Object {
+                    "hash": "",
+                    "pathname": "/",
+                    "search": "",
+                    "state": undefined,
+                  },
+                  "push": [Function],
+                  "replace": [Function],
+                }
+              }
+              location={
+                Object {
+                  "hash": "",
+                  "pathname": "/",
+                  "search": "",
+                  "state": undefined,
+                }
+              }
+              match={
+                Object {
+                  "isExact": true,
+                  "params": Object {},
+                  "path": "/",
+                  "url": "/",
+                }
+              }
+            >
+              <div>
+                <h1>
+                  HomeScreen 
+                </h1>
+                <h2>
+                  {"name":"Pablo","email":"pablioto@gmail.com"}
+                </h2>
+                <hr />
+              </div>
+            </HomeScreen>
+          </Route>
+        </Switch>
+      </div>
+    </Router>
+  </BrowserRouter>
+</AppRouter>
+`;

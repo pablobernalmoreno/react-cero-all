@@ -1,0 +1,124 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el componente <HeroScreen /> debe de mostrarse correctamente 1`] = `
+<MemoryRouter
+  initialEntries={
+    Array [
+      "/hero",
+    ]
+  }
+>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "canGo": [Function],
+        "createHref": [Function],
+        "entries": Array [
+          Object {
+            "hash": "",
+            "key": "a4cwrh",
+            "pathname": "/hero",
+            "search": "",
+            "state": undefined,
+          },
+        ],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "index": 0,
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "key": "a4cwrh",
+          "pathname": "/hero",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <HeroScreen
+      history={
+        Object {
+          "goBack": [MockFunction],
+          "length": 10,
+          "push": [MockFunction],
+        }
+      }
+    >
+      <div
+        className="row mt-5"
+      >
+        <div
+          className="col-4"
+        >
+          <img
+            className="img-thumbnail animate__animated animate__fadeInLeft"
+            src="../assets/heroes/undefined.jpg"
+          />
+        </div>
+        <div
+          className="col-8 animate__animated animate__fadeIn"
+        >
+          <h3>
+             
+             
+          </h3>
+          <ul
+            className="list-group list-group-flush"
+          >
+            <li
+              className="list-group-item"
+            >
+               
+              <b>
+                 Alter ego: 
+              </b>
+               
+               
+            </li>
+            <li
+              className="list-group-item"
+            >
+               
+              <b>
+                 Publisher: 
+              </b>
+               
+               
+            </li>
+            <li
+              className="list-group-item"
+            >
+               
+              <b>
+                 First appearance: 
+              </b>
+               
+               
+            </li>
+          </ul>
+          <h5>
+             Characters 
+          </h5>
+          <p>
+             
+             
+          </p>
+          <button
+            className="btn btn-outline-info"
+            onClick={[Function]}
+          >
+            Return
+          </button>
+        </div>
+      </div>
+    </HeroScreen>
+  </Router>
+</MemoryRouter>
+`;

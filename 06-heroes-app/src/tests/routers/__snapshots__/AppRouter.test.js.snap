@@ -1,0 +1,177 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <AppRoute /> debe de mostrar login si no está autenticado 1`] = `
+<AppRouter>
+  <BrowserRouter>
+    <Router
+      history={
+        Object {
+          "action": "REPLACE",
+          "block": [Function],
+          "createHref": [Function],
+          "go": [Function],
+          "goBack": [Function],
+          "goForward": [Function],
+          "length": 1,
+          "listen": [Function],
+          "location": Object {
+            "hash": "",
+            "key": "41eszl",
+            "pathname": "/login",
+            "search": "",
+            "state": undefined,
+          },
+          "push": [Function],
+          "replace": [Function],
+        }
+      }
+    >
+      <div>
+        <Switch>
+          <PublicRoute
+            component={[Function]}
+            computedMatch={
+              Object {
+                "isExact": true,
+                "params": Object {},
+                "path": "/login",
+                "url": "/login",
+              }
+            }
+            isAuthenticated={false}
+            location={
+              Object {
+                "hash": "",
+                "key": "41eszl",
+                "pathname": "/login",
+                "search": "",
+                "state": undefined,
+              }
+            }
+            path="/login"
+          >
+            <Route
+              component={[Function]}
+              computedMatch={
+                Object {
+                  "isExact": true,
+                  "params": Object {},
+                  "path": "/login",
+                  "url": "/login",
+                }
+              }
+              location={
+                Object {
+                  "hash": "",
+                  "key": "41eszl",
+                  "pathname": "/login",
+                  "search": "",
+                  "state": undefined,
+                }
+              }
+              path="/login"
+            >
+              <component
+                history={
+                  Object {
+                    "action": "REPLACE",
+                    "block": [Function],
+                    "createHref": [Function],
+                    "go": [Function],
+                    "goBack": [Function],
+                    "goForward": [Function],
+                    "length": 1,
+                    "listen": [Function],
+                    "location": Object {
+                      "hash": "",
+                      "key": "41eszl",
+                      "pathname": "/login",
+                      "search": "",
+                      "state": undefined,
+                    },
+                    "push": [Function],
+                    "replace": [Function],
+                  }
+                }
+                location={
+                  Object {
+                    "hash": "",
+                    "key": "41eszl",
+                    "pathname": "/login",
+                    "search": "",
+                    "state": undefined,
+                  }
+                }
+                match={
+                  Object {
+                    "isExact": true,
+                    "params": Object {},
+                    "path": "/login",
+                    "url": "/login",
+                  }
+                }
+              >
+                <LoginScreen
+                  history={
+                    Object {
+                      "action": "REPLACE",
+                      "block": [Function],
+                      "createHref": [Function],
+                      "go": [Function],
+                      "goBack": [Function],
+                      "goForward": [Function],
+                      "length": 1,
+                      "listen": [Function],
+                      "location": Object {
+                        "hash": "",
+                        "key": "41eszl",
+                        "pathname": "/login",
+                        "search": "",
+                        "state": undefined,
+                      },
+                      "push": [Function],
+                      "replace": [Function],
+                    }
+                  }
+                  location={
+                    Object {
+                      "hash": "",
+                      "key": "41eszl",
+                      "pathname": "/login",
+                      "search": "",
+                      "state": undefined,
+                    }
+                  }
+                  match={
+                    Object {
+                      "isExact": true,
+                      "params": Object {},
+                      "path": "/login",
+                      "url": "/login",
+                    }
+                  }
+                >
+                  <div
+                    className="container mt-5"
+                  >
+                    <h1>
+                      Login Screen
+                    </h1>
+                    <hr />
+                    <button
+                      className="btn btn-primary"
+                      onClick={[Function]}
+                    >
+                      Login
+                    </button>
+                  </div>
+                </LoginScreen>
+              </component>
+            </Route>
+          </PublicRoute>
+        </Switch>
+      </div>
+    </Router>
+  </BrowserRouter>
+</AppRouter>
+`;

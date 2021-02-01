@@ -1,0 +1,1062 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el componente <DashboardRoutes /> debe de mostrarse correctamente 1`] = `
+<MemoryRouter>
+  <Router
+    history={
+      Object {
+        "action": "REPLACE",
+        "block": [Function],
+        "canGo": [Function],
+        "createHref": [Function],
+        "entries": Array [
+          Object {
+            "hash": "",
+            "key": "betsq5",
+            "pathname": "/dc",
+            "search": "",
+            "state": undefined,
+          },
+        ],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "index": 0,
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "key": "betsq5",
+          "pathname": "/dc",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <DashboardRoutes>
+      <Navbar>
+        <nav
+          className="navbar navbar-expand-sm navbar-dark bg-dark"
+        >
+          <Link
+            className="navbar-brand"
+            to="/"
+          >
+            <LinkAnchor
+              className="navbar-brand"
+              href="/"
+              navigate={[Function]}
+            >
+              <a
+                className="navbar-brand"
+                href="/"
+                onClick={[Function]}
+              >
+                Asociaciones
+              </a>
+            </LinkAnchor>
+          </Link>
+          <div
+            className="navbar-collapse"
+          >
+            <div
+              className="navbar-nav"
+            >
+              <NavLink
+                activeClassName="active"
+                className="nav-item nav-link"
+                exact={true}
+                to="/marvel"
+              >
+                <Link
+                  aria-current={null}
+                  className="nav-item nav-link"
+                  to={
+                    Object {
+                      "hash": "",
+                      "pathname": "/marvel",
+                      "search": "",
+                      "state": null,
+                    }
+                  }
+                >
+                  <LinkAnchor
+                    aria-current={null}
+                    className="nav-item nav-link"
+                    href="/marvel"
+                    navigate={[Function]}
+                  >
+                    <a
+                      aria-current={null}
+                      className="nav-item nav-link"
+                      href="/marvel"
+                      onClick={[Function]}
+                    >
+                      Marvel
+                    </a>
+                  </LinkAnchor>
+                </Link>
+              </NavLink>
+              <NavLink
+                activeClassName="active"
+                className="nav-item nav-link"
+                exact={true}
+                to="/dc"
+              >
+                <Link
+                  aria-current="page"
+                  className="nav-item nav-link active"
+                  style={Object {}}
+                  to={
+                    Object {
+                      "hash": "",
+                      "pathname": "/dc",
+                      "search": "",
+                      "state": null,
+                    }
+                  }
+                >
+                  <LinkAnchor
+                    aria-current="page"
+                    className="nav-item nav-link active"
+                    href="/dc"
+                    navigate={[Function]}
+                    style={Object {}}
+                  >
+                    <a
+                      aria-current="page"
+                      className="nav-item nav-link active"
+                      href="/dc"
+                      onClick={[Function]}
+                      style={Object {}}
+                    >
+                      DC
+                    </a>
+                  </LinkAnchor>
+                </Link>
+              </NavLink>
+              <NavLink
+                activeClassName="active"
+                className="nav-item nav-link"
+                exact={true}
+                to="/search"
+              >
+                <Link
+                  aria-current={null}
+                  className="nav-item nav-link"
+                  to={
+                    Object {
+                      "hash": "",
+                      "pathname": "/search",
+                      "search": "",
+                      "state": null,
+                    }
+                  }
+                >
+                  <LinkAnchor
+                    aria-current={null}
+                    className="nav-item nav-link"
+                    href="/search"
+                    navigate={[Function]}
+                  >
+                    <a
+                      aria-current={null}
+                      className="nav-item nav-link"
+                      href="/search"
+                      onClick={[Function]}
+                    >
+                      Search
+                    </a>
+                  </LinkAnchor>
+                </Link>
+              </NavLink>
+            </div>
+          </div>
+          <div
+            className="navbar-collapse collapse w-100 order-3 dual-collapse2"
+          >
+            <ul
+              className="navbar-nav ml-auto"
+            >
+              <span
+                className="nav-item nav-link text-info"
+              >
+                Pablo
+              </span>
+              <button
+                className="btn nav-item nav-link"
+                onClick={[Function]}
+              >
+                Logout
+              </button>
+            </ul>
+          </div>
+        </nav>
+      </Navbar>
+      <div
+        className="container mt-3"
+      >
+        <Switch>
+          <Route
+            component={[Function]}
+            computedMatch={
+              Object {
+                "isExact": true,
+                "params": Object {},
+                "path": "/dc",
+                "url": "/dc",
+              }
+            }
+            exact={true}
+            location={
+              Object {
+                "hash": "",
+                "key": "betsq5",
+                "pathname": "/dc",
+                "search": "",
+                "state": undefined,
+              }
+            }
+            path="/dc"
+          >
+            <DcScreen
+              history={
+                Object {
+                  "action": "REPLACE",
+                  "block": [Function],
+                  "canGo": [Function],
+                  "createHref": [Function],
+                  "entries": Array [
+                    Object {
+                      "hash": "",
+                      "key": "betsq5",
+                      "pathname": "/dc",
+                      "search": "",
+                      "state": undefined,
+                    },
+                  ],
+                  "go": [Function],
+                  "goBack": [Function],
+                  "goForward": [Function],
+                  "index": 0,
+                  "length": 1,
+                  "listen": [Function],
+                  "location": Object {
+                    "hash": "",
+                    "key": "betsq5",
+                    "pathname": "/dc",
+                    "search": "",
+                    "state": undefined,
+                  },
+                  "push": [Function],
+                  "replace": [Function],
+                }
+              }
+              location={
+                Object {
+                  "hash": "",
+                  "key": "betsq5",
+                  "pathname": "/dc",
+                  "search": "",
+                  "state": undefined,
+                }
+              }
+              match={
+                Object {
+                  "isExact": true,
+                  "params": Object {},
+                  "path": "/dc",
+                  "url": "/dc",
+                }
+              }
+            >
+              <div>
+                <h1>
+                  DC Screen
+                </h1>
+                <hr />
+                <HeroList
+                  publisher="DC Comics"
+                >
+                  <div
+                    className="card-columns"
+                  >
+                    <HeroCard
+                      alter_ego="Bruce Wayne"
+                      characters="Bruce Wayne"
+                      first_appearance="Detective Comics #27"
+                      id="dc-batman"
+                      key="dc-batman"
+                      publisher="DC Comics"
+                      superheroe="Batman"
+                    >
+                      <div
+                        className="card ms-3"
+                        style={
+                          Object {
+                            "maxWidth": 540,
+                          }
+                        }
+                      >
+                        <div
+                          className="row no-gutters"
+                        >
+                          <div
+                            className="col-md-4"
+                          >
+                            <img
+                              alt="Batman"
+                              className="card-img"
+                              src="./assets/heroes/dc-batman.jpg"
+                            />
+                          </div>
+                          <div
+                            className="col-md-8"
+                          >
+                            <div
+                              className="card-body"
+                            >
+                              <h5
+                                className="card-title"
+                              >
+                                Batman
+                              </h5>
+                              <p
+                                className="card-text"
+                              >
+                                Bruce Wayne
+                              </p>
+                              <p
+                                className="card-text"
+                              >
+                                <small
+                                  className="text-muted"
+                                >
+                                  Detective Comics #27
+                                </small>
+                              </p>
+                              <Link
+                                to="./hero/dc-batman"
+                              >
+                                <LinkAnchor
+                                  href="/hero/dc-batman"
+                                  navigate={[Function]}
+                                >
+                                  <a
+                                    href="/hero/dc-batman"
+                                    onClick={[Function]}
+                                  >
+                                    Más...
+                                  </a>
+                                </LinkAnchor>
+                              </Link>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </HeroCard>
+                    <HeroCard
+                      alter_ego="Kal-El"
+                      characters="Kal-El"
+                      first_appearance="Action Comics #1"
+                      id="dc-superman"
+                      key="dc-superman"
+                      publisher="DC Comics"
+                      superheroe="Superman"
+                    >
+                      <div
+                        className="card ms-3"
+                        style={
+                          Object {
+                            "maxWidth": 540,
+                          }
+                        }
+                      >
+                        <div
+                          className="row no-gutters"
+                        >
+                          <div
+                            className="col-md-4"
+                          >
+                            <img
+                              alt="Superman"
+                              className="card-img"
+                              src="./assets/heroes/dc-superman.jpg"
+                            />
+                          </div>
+                          <div
+                            className="col-md-8"
+                          >
+                            <div
+                              className="card-body"
+                            >
+                              <h5
+                                className="card-title"
+                              >
+                                Superman
+                              </h5>
+                              <p
+                                className="card-text"
+                              >
+                                Kal-El
+                              </p>
+                              <p
+                                className="card-text"
+                              >
+                                <small
+                                  className="text-muted"
+                                >
+                                  Action Comics #1
+                                </small>
+                              </p>
+                              <Link
+                                to="./hero/dc-superman"
+                              >
+                                <LinkAnchor
+                                  href="/hero/dc-superman"
+                                  navigate={[Function]}
+                                >
+                                  <a
+                                    href="/hero/dc-superman"
+                                    onClick={[Function]}
+                                  >
+                                    Más...
+                                  </a>
+                                </LinkAnchor>
+                              </Link>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </HeroCard>
+                    <HeroCard
+                      alter_ego="Jay Garrick"
+                      characters="Jay Garrick, Barry Allen, Wally West, Bart Allen"
+                      first_appearance="Flash Comics #1"
+                      id="dc-flash"
+                      key="dc-flash"
+                      publisher="DC Comics"
+                      superheroe="Flash"
+                    >
+                      <div
+                        className="card ms-3"
+                        style={
+                          Object {
+                            "maxWidth": 540,
+                          }
+                        }
+                      >
+                        <div
+                          className="row no-gutters"
+                        >
+                          <div
+                            className="col-md-4"
+                          >
+                            <img
+                              alt="Flash"
+                              className="card-img"
+                              src="./assets/heroes/dc-flash.jpg"
+                            />
+                          </div>
+                          <div
+                            className="col-md-8"
+                          >
+                            <div
+                              className="card-body"
+                            >
+                              <h5
+                                className="card-title"
+                              >
+                                Flash
+                              </h5>
+                              <p
+                                className="card-text"
+                              >
+                                Jay Garrick
+                              </p>
+                              <p
+                                className="card-text"
+                              >
+                                Jay Garrick, Barry Allen, Wally West, Bart Allen
+                              </p>
+                              <p
+                                className="card-text"
+                              >
+                                <small
+                                  className="text-muted"
+                                >
+                                  Flash Comics #1
+                                </small>
+                              </p>
+                              <Link
+                                to="./hero/dc-flash"
+                              >
+                                <LinkAnchor
+                                  href="/hero/dc-flash"
+                                  navigate={[Function]}
+                                >
+                                  <a
+                                    href="/hero/dc-flash"
+                                    onClick={[Function]}
+                                  >
+                                    Más...
+                                  </a>
+                                </LinkAnchor>
+                              </Link>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </HeroCard>
+                    <HeroCard
+                      alter_ego="Alan Scott"
+                      characters="Alan Scott, Hal Jordan, Guy Gardner, John Stewart, Kyle Raynor, Jade, Sinestro, Simon Baz"
+                      first_appearance="All-American Comics #16"
+                      id="dc-green"
+                      key="dc-green"
+                      publisher="DC Comics"
+                      superheroe="Green Lantern"
+                    >
+                      <div
+                        className="card ms-3"
+                        style={
+                          Object {
+                            "maxWidth": 540,
+                          }
+                        }
+                      >
+                        <div
+                          className="row no-gutters"
+                        >
+                          <div
+                            className="col-md-4"
+                          >
+                            <img
+                              alt="Green Lantern"
+                              className="card-img"
+                              src="./assets/heroes/dc-green.jpg"
+                            />
+                          </div>
+                          <div
+                            className="col-md-8"
+                          >
+                            <div
+                              className="card-body"
+                            >
+                              <h5
+                                className="card-title"
+                              >
+                                Green Lantern
+                              </h5>
+                              <p
+                                className="card-text"
+                              >
+                                Alan Scott
+                              </p>
+                              <p
+                                className="card-text"
+                              >
+                                Alan Scott, Hal Jordan, Guy Gardner, John Stewart, Kyle Raynor, Jade, Sinestro, Simon Baz
+                              </p>
+                              <p
+                                className="card-text"
+                              >
+                                <small
+                                  className="text-muted"
+                                >
+                                  All-American Comics #16
+                                </small>
+                              </p>
+                              <Link
+                                to="./hero/dc-green"
+                              >
+                                <LinkAnchor
+                                  href="/hero/dc-green"
+                                  navigate={[Function]}
+                                >
+                                  <a
+                                    href="/hero/dc-green"
+                                    onClick={[Function]}
+                                  >
+                                    Más...
+                                  </a>
+                                </LinkAnchor>
+                              </Link>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </HeroCard>
+                    <HeroCard
+                      alter_ego="Oliver Queen"
+                      characters="Oliver Queen"
+                      first_appearance="More Fun Comics #73"
+                      id="dc-arrow"
+                      key="dc-arrow"
+                      publisher="DC Comics"
+                      superheroe="Green Arrow"
+                    >
+                      <div
+                        className="card ms-3"
+                        style={
+                          Object {
+                            "maxWidth": 540,
+                          }
+                        }
+                      >
+                        <div
+                          className="row no-gutters"
+                        >
+                          <div
+                            className="col-md-4"
+                          >
+                            <img
+                              alt="Green Arrow"
+                              className="card-img"
+                              src="./assets/heroes/dc-arrow.jpg"
+                            />
+                          </div>
+                          <div
+                            className="col-md-8"
+                          >
+                            <div
+                              className="card-body"
+                            >
+                              <h5
+                                className="card-title"
+                              >
+                                Green Arrow
+                              </h5>
+                              <p
+                                className="card-text"
+                              >
+                                Oliver Queen
+                              </p>
+                              <p
+                                className="card-text"
+                              >
+                                <small
+                                  className="text-muted"
+                                >
+                                  More Fun Comics #73
+                                </small>
+                              </p>
+                              <Link
+                                to="./hero/dc-arrow"
+                              >
+                                <LinkAnchor
+                                  href="/hero/dc-arrow"
+                                  navigate={[Function]}
+                                >
+                                  <a
+                                    href="/hero/dc-arrow"
+                                    onClick={[Function]}
+                                  >
+                                    Más...
+                                  </a>
+                                </LinkAnchor>
+                              </Link>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </HeroCard>
+                    <HeroCard
+                      alter_ego="Princess Diana"
+                      characters="Princess Diana"
+                      first_appearance="All Star Comics #8"
+                      id="dc-wonder"
+                      key="dc-wonder"
+                      publisher="DC Comics"
+                      superheroe="Wonder Woman"
+                    >
+                      <div
+                        className="card ms-3"
+                        style={
+                          Object {
+                            "maxWidth": 540,
+                          }
+                        }
+                      >
+                        <div
+                          className="row no-gutters"
+                        >
+                          <div
+                            className="col-md-4"
+                          >
+                            <img
+                              alt="Wonder Woman"
+                              className="card-img"
+                              src="./assets/heroes/dc-wonder.jpg"
+                            />
+                          </div>
+                          <div
+                            className="col-md-8"
+                          >
+                            <div
+                              className="card-body"
+                            >
+                              <h5
+                                className="card-title"
+                              >
+                                Wonder Woman
+                              </h5>
+                              <p
+                                className="card-text"
+                              >
+                                Princess Diana
+                              </p>
+                              <p
+                                className="card-text"
+                              >
+                                <small
+                                  className="text-muted"
+                                >
+                                  All Star Comics #8
+                                </small>
+                              </p>
+                              <Link
+                                to="./hero/dc-wonder"
+                              >
+                                <LinkAnchor
+                                  href="/hero/dc-wonder"
+                                  navigate={[Function]}
+                                >
+                                  <a
+                                    href="/hero/dc-wonder"
+                                    onClick={[Function]}
+                                  >
+                                    Más...
+                                  </a>
+                                </LinkAnchor>
+                              </Link>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </HeroCard>
+                    <HeroCard
+                      alter_ego="J'onn J'onzz"
+                      characters="Martian Manhunter"
+                      first_appearance="Detective Comics #225"
+                      id="dc-martian"
+                      key="dc-martian"
+                      publisher="DC Comics"
+                      superheroe="Martian Manhunter"
+                    >
+                      <div
+                        className="card ms-3"
+                        style={
+                          Object {
+                            "maxWidth": 540,
+                          }
+                        }
+                      >
+                        <div
+                          className="row no-gutters"
+                        >
+                          <div
+                            className="col-md-4"
+                          >
+                            <img
+                              alt="Martian Manhunter"
+                              className="card-img"
+                              src="./assets/heroes/dc-martian.jpg"
+                            />
+                          </div>
+                          <div
+                            className="col-md-8"
+                          >
+                            <div
+                              className="card-body"
+                            >
+                              <h5
+                                className="card-title"
+                              >
+                                Martian Manhunter
+                              </h5>
+                              <p
+                                className="card-text"
+                              >
+                                J'onn J'onzz
+                              </p>
+                              <p
+                                className="card-text"
+                              >
+                                Martian Manhunter
+                              </p>
+                              <p
+                                className="card-text"
+                              >
+                                <small
+                                  className="text-muted"
+                                >
+                                  Detective Comics #225
+                                </small>
+                              </p>
+                              <Link
+                                to="./hero/dc-martian"
+                              >
+                                <LinkAnchor
+                                  href="/hero/dc-martian"
+                                  navigate={[Function]}
+                                >
+                                  <a
+                                    href="/hero/dc-martian"
+                                    onClick={[Function]}
+                                  >
+                                    Más...
+                                  </a>
+                                </LinkAnchor>
+                              </Link>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </HeroCard>
+                    <HeroCard
+                      alter_ego="Dick Grayson"
+                      characters="Dick Grayson"
+                      first_appearance="Detective Comics #38"
+                      id="dc-robin"
+                      key="dc-robin"
+                      publisher="DC Comics"
+                      superheroe="Robin/Nightwing"
+                    >
+                      <div
+                        className="card ms-3"
+                        style={
+                          Object {
+                            "maxWidth": 540,
+                          }
+                        }
+                      >
+                        <div
+                          className="row no-gutters"
+                        >
+                          <div
+                            className="col-md-4"
+                          >
+                            <img
+                              alt="Robin/Nightwing"
+                              className="card-img"
+                              src="./assets/heroes/dc-robin.jpg"
+                            />
+                          </div>
+                          <div
+                            className="col-md-8"
+                          >
+                            <div
+                              className="card-body"
+                            >
+                              <h5
+                                className="card-title"
+                              >
+                                Robin/Nightwing
+                              </h5>
+                              <p
+                                className="card-text"
+                              >
+                                Dick Grayson
+                              </p>
+                              <p
+                                className="card-text"
+                              >
+                                <small
+                                  className="text-muted"
+                                >
+                                  Detective Comics #38
+                                </small>
+                              </p>
+                              <Link
+                                to="./hero/dc-robin"
+                              >
+                                <LinkAnchor
+                                  href="/hero/dc-robin"
+                                  navigate={[Function]}
+                                >
+                                  <a
+                                    href="/hero/dc-robin"
+                                    onClick={[Function]}
+                                  >
+                                    Más...
+                                  </a>
+                                </LinkAnchor>
+                              </Link>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </HeroCard>
+                    <HeroCard
+                      alter_ego="Dan Garret"
+                      characters="Dan Garret, Ted Kord, Jaime Reyes"
+                      first_appearance="Mystery Men Comics #1"
+                      id="dc-blue"
+                      key="dc-blue"
+                      publisher="DC Comics"
+                      superheroe="Blue Beetle"
+                    >
+                      <div
+                        className="card ms-3"
+                        style={
+                          Object {
+                            "maxWidth": 540,
+                          }
+                        }
+                      >
+                        <div
+                          className="row no-gutters"
+                        >
+                          <div
+                            className="col-md-4"
+                          >
+                            <img
+                              alt="Blue Beetle"
+                              className="card-img"
+                              src="./assets/heroes/dc-blue.jpg"
+                            />
+                          </div>
+                          <div
+                            className="col-md-8"
+                          >
+                            <div
+                              className="card-body"
+                            >
+                              <h5
+                                className="card-title"
+                              >
+                                Blue Beetle
+                              </h5>
+                              <p
+                                className="card-text"
+                              >
+                                Dan Garret
+                              </p>
+                              <p
+                                className="card-text"
+                              >
+                                Dan Garret, Ted Kord, Jaime Reyes
+                              </p>
+                              <p
+                                className="card-text"
+                              >
+                                <small
+                                  className="text-muted"
+                                >
+                                  Mystery Men Comics #1
+                                </small>
+                              </p>
+                              <Link
+                                to="./hero/dc-blue"
+                              >
+                                <LinkAnchor
+                                  href="/hero/dc-blue"
+                                  navigate={[Function]}
+                                >
+                                  <a
+                                    href="/hero/dc-blue"
+                                    onClick={[Function]}
+                                  >
+                                    Más...
+                                  </a>
+                                </LinkAnchor>
+                              </Link>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </HeroCard>
+                    <HeroCard
+                      alter_ego="Dinah Drake"
+                      characters="Dinah Drake, Dinah Lance"
+                      first_appearance="Flash Comics #86"
+                      id="dc-black"
+                      key="dc-black"
+                      publisher="DC Comics"
+                      superheroe="Black Canary"
+                    >
+                      <div
+                        className="card ms-3"
+                        style={
+                          Object {
+                            "maxWidth": 540,
+                          }
+                        }
+                      >
+                        <div
+                          className="row no-gutters"
+                        >
+                          <div
+                            className="col-md-4"
+                          >
+                            <img
+                              alt="Black Canary"
+                              className="card-img"
+                              src="./assets/heroes/dc-black.jpg"
+                            />
+                          </div>
+                          <div
+                            className="col-md-8"
+                          >
+                            <div
+                              className="card-body"
+                            >
+                              <h5
+                                className="card-title"
+                              >
+                                Black Canary
+                              </h5>
+                              <p
+                                className="card-text"
+                              >
+                                Dinah Drake
+                              </p>
+                              <p
+                                className="card-text"
+                              >
+                                Dinah Drake, Dinah Lance
+                              </p>
+                              <p
+                                className="card-text"
+                              >
+                                <small
+                                  className="text-muted"
+                                >
+                                  Flash Comics #86
+                                </small>
+                              </p>
+                              <Link
+                                to="./hero/dc-black"
+                              >
+                                <LinkAnchor
+                                  href="/hero/dc-black"
+                                  navigate={[Function]}
+                                >
+                                  <a
+                                    href="/hero/dc-black"
+                                    onClick={[Function]}
+                                  >
+                                    Más...
+                                  </a>
+                                </LinkAnchor>
+                              </Link>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </HeroCard>
+                  </div>
+                </HeroList>
+              </div>
+            </DcScreen>
+          </Route>
+        </Switch>
+      </div>
+    </DashboardRoutes>
+  </Router>
+</MemoryRouter>
+`;
